@@ -4,10 +4,10 @@ import { useSelector } from 'react-redux';
 import { doSomething } from '../src/Others/ActionTest';
 
 const index = () => {
-    const counter = useSelector(() => controller.counter);
+    const states = useSelector(() => controller.states);
 
     return <div>
-        <p>Counter {counter}</p>
+        <p>Counter {states.counter}</p>
         <button onClick={() => {
             controller.increase()
         }}>+</button>
