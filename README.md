@@ -5,7 +5,7 @@ TypeScript friendly boilerplate with MaterialUI and Overmind
 * NextJS
 * React (Duh!)
 * TypeScript
-* Overmind
+* Usm-redux
 * MaterialUI
 * 
 
