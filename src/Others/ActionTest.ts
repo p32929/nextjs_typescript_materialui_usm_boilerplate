@@ -1,4 +1,4 @@
-import { StatesController, controller, store } from '../Others/StatesController'
+import { controller } from '../Others/StatesController'
 
 export const doSomething = () => {
     controller.decrease()
