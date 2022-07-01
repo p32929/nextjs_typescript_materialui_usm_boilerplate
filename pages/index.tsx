@@ -1,7 +1,7 @@
 import React from 'react';
-import { controller } from '../src/Others/StatesController'
+import { controller } from '../utils/StatesController'
 import { useSelector } from 'react-redux';
-import { doSomething } from '../src/Others/ActionTest';
+import { doSomething } from '../utils/ActionTest';
 
 const index = () => {
     const states = useSelector(() => controller.states);

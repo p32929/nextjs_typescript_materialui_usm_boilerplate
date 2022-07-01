@@ -1,8 +1,7 @@
 import React, { MouseEventHandler } from 'react'
-import { DialogTitle, Grid, IconButton, Typography } from "@material-ui/core";
-import { SvgPaths } from '../../Others/SvgPaths';
+import { DialogTitle, Grid, IconButton, Typography } from "@material-ui/core";;
 import SvgIconRenderer from './SvgIconRenderer';
-import { AppColors } from '../../Others/AppColors';
+import {SvgPaths} from "../../utils/SvgPaths";
 
 interface Props {
     children: React.ReactNode,
@@ -16,8 +15,8 @@ const MpDialogTitle: React.FC<Props> = (props) => {
 
     // Vars
     const dialogTitleStyle: React.CSSProperties = {
-        backgroundColor: AppColors.PRIMARY_MAIN,
-        color: AppColors.WHITE,
+        // backgroundColor: AppColors.PRIMARY_MAIN,
+        // color: AppColors.WHITE,
     }
 
     // JSX

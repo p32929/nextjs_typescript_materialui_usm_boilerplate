@@ -3,9 +3,9 @@ import Head from 'next/head';
 import { AppProps } from 'next/app';
 import { ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { theme } from '../src/Others/Theme';
+import { theme } from '../utils/Theme';
 import { Provider } from "react-redux";
-import { store } from '../src/Others/StatesController';
+import { store } from '../utils/StatesController';
 
 export default function MyApp(props: AppProps) {
     const { Component, pageProps } = props;
